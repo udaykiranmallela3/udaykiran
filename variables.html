@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h2>javascript scope</h2>
+    <p>outside my function()carName is undefined.</p>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <h2>javascript let</h2>
+    <p id="demo3"></p>
+    <h2>javascript const</h2>
+    <p>you cannot change a primitive value</p>
+    <p id="demo4"></p>
+    <h3>javascript const</h3>
+    <p>declaring a constant object does not make the objects properties unchangable</p>
+    <p id="demo5"></p>
+
+    <script>
+        myFunction();
+
+        function myFunction() {
+            var carName = "Volvo";
+
+            document.getElementById("demo1").innerHTML =  typeof carName + "" + carName;
+
+        }
+        document.getElementById("demo2").innerHTML = typeof carName;
+
+        var i = 5;
+        for (var i=0; i<10; i++){
+
+        }
+        document.getElementById("demo3").innerHTML = i;
+//const variable//
+        try{
+            const PI =3.1415926;
+            PI = 3.14;
+        }
+        catch (err) {
+            document.getElementById("demo4").innerHTML = err;
+        }
+        //js const//
+         const car ={
+             type:"Fiat",model:"500",color:"white"};
+         car.color:"red";
+         car.owner:"uday";
+         document.getElementById("demo5").innerHTML = "car owner is" + car.owner;
+
+    </script>
+
+</body>
+
+</html>

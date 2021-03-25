@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>javascript variables</h2>
+        <p id="demo"></p>
+        <h3>javascript variables</h3>
+        <p>create a variable,assign a value of it, and delete it.</p>
+        <p id="demo1"></p>
+        <h3>variables</h3>
+        <p>you can declare many variables in one statement.</p>
+        <p id="demo3"></p>
+        <h3>arithmetic</h3>
+        <p>result of adding 5+2+6.</p>
+        <p id="demo4"></p>
+        <h3>javascript scope</h3>
+        <p>A global variables can be accessed from any script</p>
+        <p id="demo5"></p>
+        
+        <script>
+            var x,y,z;
+            x=5;
+            y=6;
+            z=x+y;
+            document.getElementById("demo").innerHTML=z;
+            var carname= "volvo";
+            document.getElementById("demo1").innerHTML=carname;
+            var person="raghu",carname="indica",price="300000";
+            document.getElementById("demo3").innerHTML=person;
+            var x=5+2+6;
+            document.getElementById("demo4").innerHTML=x;
+
+            var carname="volvo";
+            myFunction();
+            function myFunction(){
+                document.getElementById("demo5").innerHTML="i can display " + carname;
+            }
+
+        </script>
+    </body> 
