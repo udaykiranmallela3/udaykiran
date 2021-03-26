@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>arithmetic operations</h2>
+        <p id="demo"></p>
+        <h3>multifying</h3>
+        <p id="demo1"></p>
+        <h2>division</h2>
+        <p id="demo2"></p>
+        <h3>incrementing</h3>
+        <p>++ is a increment operator</p>
+        <p id="demo3"></p>
+        <h3>decrementing</h3>
+        <p>-- is the decrementing operator</p>
+        <p id="demo4"></p>
+        <script>
+            var x = 100 + 50;
+            document.getElementById("demo").innerHTML = x;
+            //multifying:\
+            var a = 3;
+            var x = (100+50) * a;
+            document.getElementById("demo1").innerHTML = x;
+            //dividing:
+            var x,y,z;
+            x = 5;
+            y = 2;
+            z = x/y;
+            document.getElementById("demo2").innerHTML = z;
+            //incrementing:
+            var x = 5;
+            x++;
+            var z = x;
+            document.getElementById("demo3").innerHTML = z;
+            //decrementing:
+            var x = 5;
+            x--;
+            var z = x;
+            document.getElementById("demo4").innerHTML = z;
+        </script>
+    </body>
+</html>
