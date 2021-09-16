@@ -1,0 +1,45 @@
+
+[
+  {
+    "opportunityName": "",
+    "quoteNumber": 210589,
+    "versionDateTime": "06/29/21 9: 32: 39 PM",
+    "legalEntityName":"" ,
+    "customerName": "Fort Myer Constuction Corporation",
+    "startDate":" 08/01/2021",
+    "term": "12,24,36",
+    "brokerMargin": 4.00,
+    "utility": "PEPCO_DC",
+    "facilityCount": 5,
+    "creditStatus": "Approved",
+    "contract": ""
+  },
+  {
+    "opportunityName": "",
+    "quoteNumber": 229087,
+    "versionDateTime": "09/07/21 1:48:09 AM",
+    "legalEntityName":"" ,
+    "customerName": "Pine Hurst Acres LP",
+    "startDate": "04/01/2022",
+    "term": "12,24,36,48,60",
+    "brokerMargin": 3.00,
+    "utility": "PPL",
+    "facilityCount": 5,
+    "creditStatus": "Pending",
+    "contract": ""
+  },
+  {
+    "opportunityName": "",
+    "quoteNumber": 230050,
+    "versionDateTime":"09/07/21 2:34:37 AM",
+    "legalEntityName":"" ,
+    "customerName": "VWR International LLC",
+    "startDate": "07/01/2023",
+    "term": "12,24 ",
+    "brokerMargin": 1.00,
+    "utility": "CenterPoint",
+    "facilityCount": 1,
+    "creditStatus": "pending",
+    "contract": ""
+  }
+]
