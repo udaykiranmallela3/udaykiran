@@ -1,0 +1,37 @@
+<div style="text-align:left;width:500px;">
+    <table>
+        <tr>
+            <th>Serial Number</th>
+            <th>Opportunity Name</th>
+            <th>Quote Number</th>
+            <th>Version Date Time</th>
+            <th>Legal Entity Name</th>
+            <th>Customer Name</th>
+            <th>Start Date</th>
+            <th>Term</th>
+            <th>Broker Margin</th>
+            <th>Utility</th>
+            <th>Facility Count</th>
+            <th>Credit Status</th>
+            <th>Contract</th>
+        </tr>
+        <tr *ngFor="let active of actives; let i=index">
+            <td>{{i+1}}</td>
+            <td>{{active.opportunityName}}</td>
+            <td>{{active.quoteNumber}}</td>
+            <td>{{active.versionDateTime}}</td>
+            <td>{{active.legalEntityName}}</td>
+            <td>{{active.customerName}}</td>
+            <td>{{active.startDate}}</td>
+            <td>{{active.term}}</td>
+            <td>{{active.brokermargin}}</td>
+            <td>{{active.utility}}</td>
+            <td>{{active.facilityCount}}</td>
+            <td>{{active.creditStatus}}</td>
+            <td><button class="btn-default">download</button></td>
+            
+            
+        </tr>
+    </table>
+
+</div>
